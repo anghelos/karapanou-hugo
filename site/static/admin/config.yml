@@ -8,25 +8,6 @@ i18n:
   structure: multiple_folders
   locales: [en, el-gr, fr, de]
 
-collections:
-  - name: posts
-    label: Posts
-    folder: content/posts
-    create: true
-    i18n: true
-    fields:
-      - label: Title
-        name: title
-        widget: string
-        i18n: true
-      - label: Date
-        name: date
-        widget: datetime
-        i18n: duplicate
-      - label: Body
-        name: body
-        widget: markdown
-
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
