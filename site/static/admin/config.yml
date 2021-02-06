@@ -20,6 +20,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown", i18n: true}
   - name: "pages"
     label: "Pages"
+    i18n: true
     files:
       - file: "site/content/_index.md"
         label: "Home Page"
